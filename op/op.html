@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.profile_img
+{
+  width: 200px;
+  height: 200px;
+}
+</style>
+</head>
+<body bgcolor="#93C572">
+  <p>Our staff details:
+
+  <div class="column">
+    <div class="card">
+      <img src="../IMG/bt.jpg" alt="BT" class="profile_img" >
+      <div class="container">
+        <h2>Balendra Tiwari</h2>
+        <p class="title"></p>
+        <p>Science & Chemistry Teacher<br>
+        12 yrs of experience</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+     <img src="../IMG/MB.jpg" alt="MB" class="profile_img">
+      <div class="container">
+        <h2>Malik Banjare</h2>
+        <p>English,History & Geography Teacher<br>
+        11 yrs of experience</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+
+  
+
+  <div class="column">
+    <div class="card">
+      <img src="../IMG/GT.Jpg" alt="GT" class="profile_img">
+      <div class="container">
+        <h2>Gaurav Thakre</h2>
+        <p class="title"></p>
+        <p>Marathi Teacher</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="column">
+    <div class="card">
+      <img src="../IMG/VT.jpg" alt="VT" class="profile_img">
+      <div class="container">
+        <h2>Virendra Tiwaari</h2>
+        <p class="title"></p>
+        <p>Economics</p>
+      </div>
+    </div>
+  </div>
+
+  <p align="center">
+                      <button class="w3-button w3-red">
+          <big>
+            <strong>
+ <a href="../index.html">  BACK TO HOME </a>
+          </big>
+            </strong>  
+                      </button>
+              </p>                      
+    </body>
+</html>           
